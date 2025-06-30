@@ -4,7 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>豐厚油漆工程有限公司</title>
-
+  <!-- Favicon 與社群預覽設定 -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta property="og:title" content="豐厚工程行" />
+  <meta property="og:description" content="專業油漆、防鏽、補漆施工，承接大型工地工程。" />
+  <meta property="og:image" content="https://你的網址/logo-social.jpg" />
+  <meta property="og:url" content="https://你的網址/" />
+  <meta property="og:type" content="website" />
   <!-- 引入 Google 字型：Noto Sans TC -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
 
@@ -240,18 +246,21 @@
 <body>
 
   <!-- ===== 頁首區塊：Logo 與選單（含語言切換按鈕） ===== -->
-  <header>
+<header>
+  <div style="display: flex; align-items: center; gap: 15px;">
+    <img src="logo.png" alt="豐厚工程行 Logo" style="height: 48px;" />
     <h1 data-lang-zh="豐厚油漆工程有限公司" data-lang-en="Feng Hou Painting Co.">豐厚油漆工程有限公司</h1>
-    <nav>
-      <ul>
-        <li><a href="#about" data-lang-zh="關於我們" data-lang-en="About Us">關於我們</a></li>
-        <li><a href="#services" data-lang-zh="服務項目" data-lang-en="Services">服務項目</a></li>
-        <li><a href="#projects" data-lang-zh="實績展示" data-lang-en="Projects">實績展示</a></li>
-        <li><a href="#contact" data-lang-zh="聯絡我們" data-lang-en="Contact">聯絡我們</a></li>
-        <li><a id="lang-toggle">EN</a></li> <!-- 語言切換按鈕 -->
-      </ul>
-    </nav>
-  </header>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#about" data-lang-zh="關於我們" data-lang-en="About Us">關於我們</a></li>
+      <li><a href="#services" data-lang-zh="服務項目" data-lang-en="Services">服務項目</a></li>
+      <li><a href="#projects" data-lang-zh="實績展示" data-lang-en="Projects">實績展示</a></li>
+      <li><a href="#contact" data-lang-zh="聯絡我們" data-lang-en="Contact">聯絡我們</a></li>
+      <li><a id="lang-toggle">EN</a></li>
+    </ul>
+  </nav>
+</header>
 
   <!-- ===== Hero 首頁主視覺 ===== -->
   <section class="hero">
